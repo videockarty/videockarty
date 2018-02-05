@@ -5,6 +5,13 @@ const request = require('request')
 const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
+const appurl = 'https://videockarty.herokuapp.com/'
+const https = require('https')
+(function ping(){
+    https.get(appurl, data=>{
+            1+1})
+    setTimeout(ping, 5*60*1000)
+})()
 //const util = require('util')
 //const fs = require('fs')
 const S = require('string')
