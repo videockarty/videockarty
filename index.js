@@ -6,11 +6,11 @@ const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
 const appurl = 'https://videockarty.herokuapp.com/'
-const https = require('https')
-(function ping(){
+var https = require('https');
+(function sl(){
     https.get(appurl, data=>{
-            1+1})
-    setTimeout(ping, 5*60*1000)
+    let sum = Number(data)+5})
+    setTimeout(sl, 5*60*1000)
 })()
 //const util = require('util')
 //const fs = require('fs')
