@@ -17,7 +17,7 @@ module.exports = {
     // setup email data with unicode symbols
     let mailOptions = {
         from: '"Телеграм бот" <videockarty@yandex.ru>', // sender address
-        to: 'videockarty@yandex.ru', // list of receivers
+        to: 'valefuwon@kumail8.info', // list of receivers
         subject: 'Заявка на видеокарту', // Subject line
         html: body // html body
     };
